@@ -1,5 +1,7 @@
 import * as React from 'react'
 import styled from 'styled-components'
+import SquiggleArrow from '../images/SquiggleArrow.svg';
+import JoshPortrait from '../images/josh-portrait.png';
 
 const StyledMain = styled.main`
   background: #c7c3ae;
@@ -20,6 +22,8 @@ const IndexPage = () => {
         I’m a digital designer who channels my creativity into improving the
         lives of others through design.
       </h2>
+      <img src={SquiggleArrow} alt="" />
+      <img src={JoshPortrait} alt="" />
     </StyledMain>
   )
 }
